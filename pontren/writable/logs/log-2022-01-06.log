@@ -1,0 +1,21 @@
+CRITICAL - 2022-01-06 04:14:03 --> Undefined variable: getData
+#0 D:\htdocs\pontren\app\Controllers\Home.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\htdocs\\pontr...', 14, Array)
+#1 D:\htdocs\pontren\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#2 D:\htdocs\pontren\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\htdocs\pontren\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\htdocs\pontren\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\htdocs\pontren\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs\\pontr...')
+#6 {main}
+CRITICAL - 2022-01-06 04:14:15 --> Undefined variable: data
+#0 D:\htdocs\pontren\app\Views\template\default.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\htdocs\\pontr...', 70, Array)
+#1 D:\htdocs\pontren\system\View\View.php(210): include('D:\\htdocs\\pontr...')
+#2 D:\htdocs\pontren\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\htdocs\pontren\system\View\View.php(226): CodeIgniter\View\View->render('template/defaul...', Array, true)
+#4 D:\htdocs\pontren\system\Common.php(1089): CodeIgniter\View\View->render('home/index', Array, true)
+#5 D:\htdocs\pontren\app\Controllers\Home.php(17): view('home/index', Array)
+#6 D:\htdocs\pontren\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#7 D:\htdocs\pontren\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\htdocs\pontren\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\htdocs\pontren\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\htdocs\pontren\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs\\pontr...')
+#11 {main}
